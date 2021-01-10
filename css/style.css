@@ -1,0 +1,131 @@
+body{
+    padding:0;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    /* background-color: green; */
+    /* opacity:0.3; */
+    background-image: url("../images/hikuen_top_img.JPG");
+    margin: 0 auto;
+    padding: 0;
+    height:130px;
+    width: 100%;
+    position: fixed;
+}
+
+.title>img{
+    width: 220px;
+    padding-top: 15px;
+    /* background-color:red; */
+}
+
+#top>p img{
+    width: 200px;
+}
+
+.blank{
+    height:120px;
+}
+p>font{
+    text-shadow: 2px  2px 2px gray;
+    font-size: 2.3em;
+}
+
+/* 園の紹介 */
+
+.hoikuhousin{
+    width: 750px;
+    text-align:left;
+    line-height:60px;
+}
+
+.en-gaiyou{
+    width:70%;
+    display:flex;
+    text-align: center;
+}
+
+.teiin{
+    flex:1;
+    margin-top:50px;
+}
+.jikan{
+    flex:1;
+}
+
+.entyou{
+    width:800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.entyou>div{
+    flex:1;
+}
+/* お知らせ */
+.osirase_scroll{
+    margin: 0 auto;
+    width:450px;
+    height:100px;
+    overflow:scroll;
+    background-color:rgba(255, 213, 98,0.5);
+    font-size:20px;
+    border-radius: 10px;
+    border: 10px outset rgba(255, 178, 63,0.5);
+}
+.osirase_scroll li{
+    list-style:none;
+    text-align:left;
+}
+
+/* 年間行事 */
+.gyouji_syasin{
+    display: flex;
+    flex-wrap:wrap;
+}
+.gyouji_syasin div{
+    flex:1;
+}
+
+.gyouji_syasin img{
+    width: 500px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border:5px solid;
+}
+
+.gyouji_syasin span{
+    font-size: 30px;
+}
+/* １日の生活 */
+.seikatu_syasin{
+    display: flex;
+    flex-wrap:wrap;
+}
+.seikatu_syasin div{
+    flex:1;
+}
+.seikatu_syasin span{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.seikatu_syasin img{
+    width:500px;
+    margin-top:10px;
+    margin-bottom:25px;
+    border-radius: 20%;
+}
+
+/* お問い合わせ */
+.aa{
+    background-color:red;
+    opacity:0.5;
+}
